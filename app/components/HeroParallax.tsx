@@ -14,8 +14,8 @@ export default function HeroParallax() {
       const offsetX = e.clientX - rect.left;
       const offsetY = e.clientY - rect.top;
 
-      const x = ((offsetX / rect.width) - 0.5) * 100;
-      const y = ((offsetY / rect.height) - 0.5) * 100;
+      const x = ((offsetX / rect.width) - 0.5) * 80;
+      const y = ((offsetY / rect.height) - 0.5) * 80;
 
       if (parallaxRef.current) {
         parallaxRef.current.style.transform = `translate(${x}px, ${y}px)`;
@@ -42,8 +42,9 @@ export default function HeroParallax() {
         <img src="/icons/csharp.svg" className="absolute bottom-10 left-[15%] w-18 opacity-10" />
         <img src="/icons/ts.svg" className="absolute top-1/3 right-[10%] w-20 opacity-10" />
         <img src="/icons/css.png" className="absolute top-5 left-[30%] w-18 opacity-10" />
-        <img src="/icons/php.png" className="absolute top-1/14 right-[40%] w-20 opacity-10" />
-        <img src="/icons/swift.png" className="absolute bottom-15 left-[40%] w-18 opacity-10" />
+        <img src="/icons/php.png" className="absolute top-1 right-[40%] w-20 opacity-10" />
+        <img src="/icons/react.png" className="absolute bottom-13 left-[40%] w-18 opacity-10" />
+        <img src="/icons/rubyonrails.png" className="absolute top-1/2 left-[60%] w-20 opacity-10" />
       </div>
 
       {/* Text content */}
