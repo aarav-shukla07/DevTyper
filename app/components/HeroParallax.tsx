@@ -27,13 +27,13 @@ export default function HeroParallax() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="relative overflow-hidden py-28 bg-zinc-900 text-white">
+    <section ref={sectionRef} className="relative overflow-hidden py-20 sm:py-28 bg-zinc-900 text-white">
       {/* Noise overlay */}
       <div className="absolute inset-0 z-0 bg-noise opacity-30 pointer-events-none" />
       {/* Background icons layer */}
       <div
         ref={parallaxRef}
-        className="absolute inset-0 z-0 transition-transform duration-200 ease-out pointer-events-none"
+        className="absolute inset-0 z-0 transition-transform duration-200 ease-out pointer-events-none hidden md:block"
       >
         <img src="/icons/python.png" className="absolute top-10 left-50 w-18 opacity-10" />
         <img src="/icons/js.png" className="absolute top-1/2 left-[25%] w-20 opacity-10" />
@@ -41,7 +41,6 @@ export default function HeroParallax() {
         <img src="/icons/java.svg" className="absolute top-5 right-[25%] w-20 opacity-10" />
         <img src="/icons/csharp.svg" className="absolute bottom-10 left-[15%] w-18 opacity-10" />
         <img src="/icons/ts.svg" className="absolute top-1/3 right-[10%] w-20 opacity-10" />
-        <img src="/icons/css.png" className="absolute top-5 left-[30%] w-18 opacity-10" />
         <img src="/icons/php.png" className="absolute top-1 right-[40%] w-20 opacity-10" />
         <img src="/icons/react.png" className="absolute bottom-13 left-[40%] w-18 opacity-10" />
         <img src="/icons/rubyonrails.png" className="absolute top-1/2 left-[60%] w-20 opacity-10" />
