@@ -45,6 +45,11 @@ export default function HeroParallax() {
         <img src="/icons/react.png" className="absolute bottom-13 left-[40%] w-18 opacity-10" />
         <img src="/icons/rubyonrails.png" className="absolute top-1/2 left-[60%] w-20 opacity-10" />
       </div>
+      {/* Center radial glow behind text */}
+      <div className="absolute inset-0 z-0 flex items-center justify-center pointer-events-none">
+        <div className="w-[30vw] h-[20vw] bg-orange-500 rounded-full opacity-20 blur-3xl"/>
+      </div>
+
 
       {/* Text content */}
       <div className="relative z-10 text-center px-6">
@@ -63,6 +68,7 @@ export default function HeroParallax() {
           Get Started
         </a>
       </div>
+      
     </section>
   );
 }
