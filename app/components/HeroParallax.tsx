@@ -46,23 +46,23 @@ export default function HeroParallax() {
         <img src="/icons/rubyonrails.png" className="absolute top-1/2 left-[60%] w-20 opacity-10" />
       </div>
       {/* Center radial glow behind text */}
-      <div className="absolute inset-0 z-0 flex items-center justify-center pointer-events-none">
-        <div className="w-[30vw] h-[20vw] bg-orange-500 rounded-full opacity-20 blur-3xl"/>
+      <div className="absolute inset-0 z-0 flex items-center justify-center pointer-events-none mt-80">
+        <div className="w-[50vw] h-[40vw] bg-orange-500 rounded-full opacity-10 blur-3xl"/>
       </div>
 
 
       {/* Text content */}
       <div className="relative z-10 text-center px-6">
-        <h1 className="text-4xl sm:text-5xl font-bold mb-4 leading-tight">
-          <span className="text-white">Achieve</span>{' '}
-          <span className="text-red-500">mastery</span>{' '}
-          <span className="text-white">through challenge</span>
+        <h1 className="text-4xl sm:text-8xl font-normal mb-4 leading-tight">
+          <span className="text-red-500">Code Faster</span>{' '}
+          <br />
+          <span className="text-white">Think Sharper</span>
         </h1>
-        <p className="text-zinc-400 text-lg max-w-2xl mx-auto mb-8">
-          Improve your dev skills by training on real code. Go beyond speed — learn flow.
+        <p className="text-white text-xl max-w-3xl mx-auto mb-8">
+          Improve your development speed by solving real coding problems with time pressure. Learn to think clearly, type faster, and solve smarter — just like in real interviews.
         </p>
         <a
-          href="/play"
+          href="/login"
           className="inline-block px-6 py-3 bg-red-600 text-white rounded-md shadow hover:bg-red-700 transition"
         >
           Get Started
