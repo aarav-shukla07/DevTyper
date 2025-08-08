@@ -32,7 +32,7 @@ export default function Header() {
                         <button className="px-4 py-1.5 border border-white text-white rounded-md text-sm hover:bg-white hover:text-zinc-900 transition">Login</button>
                     </Link>
                     <Link href="/signup">
-                        <button className="px-4 py-1.5 border border-red-500 text-red-500 rounded-md text-sm hover:bg-red-500 hover:text-white transition">SignUp</button>
+                        <button className="px-4 py-1.5 border border-violet-500 text-violet-500 rounded-md text-sm hover:bg-violet-500 hover:text-white transition">SignUp</button>
                     </Link>
                 </div>
 

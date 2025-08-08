@@ -47,14 +47,14 @@ export default function HeroParallax() {
       </div>
       {/* Center radial glow behind text */}
       <div className="absolute inset-0 z-0 flex items-center justify-center pointer-events-none mt-80">
-        <div className="w-[50vw] h-[40vw] bg-orange-500 rounded-full opacity-10 blur-3xl"/>
+        <div className="w-[50vw] h-[40vw] bg-violet-500 rounded-full opacity-10 blur-3xl"/>
       </div>
 
 
       {/* Text content */}
       <div className="relative z-10 text-center px-6">
         <h1 className="text-4xl sm:text-8xl font-normal mb-4 leading-tight">
-          <span className="text-red-500">Code Faster</span>{' '}
+          <span className="text-violet-500">Code Faster</span>{' '}
           <br />
           <span className="text-white">Think Sharper</span>
         </h1>
@@ -63,7 +63,7 @@ export default function HeroParallax() {
         </p>
         <a
           href="/login"
-          className="inline-block px-6 py-3 bg-red-600 text-white rounded-md shadow hover:bg-red-700 transition"
+          className="inline-block px-6 py-3 bg-violet-600 text-white rounded-md shadow hover:bg-violet-700 transition"
         >
           Get Started
         </a>
