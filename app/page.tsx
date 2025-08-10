@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import HeroParallax from "./components/HeroParallax";
 import FeatureSection from "./components/FeaturesSection";
 import FeaturesGrid from "./components/FeaturesGrid";
+import Description from "./components/Description";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
           {/* Your content here */}
           <FeatureSection />
           <FeaturesGrid />
+          <Description />
         </main>
       </div>
     </>
