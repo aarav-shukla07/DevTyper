@@ -5,6 +5,8 @@ import FeatureSection from "./components/FeaturesSection";
 import FeaturesGrid from "./components/FeaturesGrid";
 import Description from "./components/Description";
 import DesGrid from "./components/DesGrid";
+import Working from "./components/Working";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
           <FeaturesGrid />
           <Description />
           <DesGrid />
+          <Working />
+          <Footer />
         </main>
       </div>
     </>
