@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "DevTyper",
   description: "Made by Aarav😎",
+  icons:{
+    icon:'/logo.png',
+  }
 };
 
 export default function RootLayout({
