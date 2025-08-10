@@ -4,6 +4,7 @@ import HeroParallax from "./components/HeroParallax";
 import FeatureSection from "./components/FeaturesSection";
 import FeaturesGrid from "./components/FeaturesGrid";
 import Description from "./components/Description";
+import DesGrid from "./components/DesGrid";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
           <FeatureSection />
           <FeaturesGrid />
           <Description />
+          <DesGrid />
         </main>
       </div>
     </>

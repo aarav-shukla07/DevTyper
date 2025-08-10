@@ -1,20 +1,20 @@
-import { Code2, Timer } from "lucide-react";
+import { Edit, Eye } from "lucide-react";
 
-export default function FeaturesGrid() {
+export default function DesGrid() {
     const features = [
         {
-            icon: <Code2 className="w-8 h-8 text-[#E4D9FF]" />,
-            title: "Real Coding Challenges",
+            icon: <Edit className="w-8 h-8 text-[#E4D9FF]" />,
+            title: "Create Your Own Challenges",
             description:
-                "Work on practical, time-bound problems inspired by real-world scenarios. Each challenge pushes you to think critically, code efficiently, and adapt quickly — just like in professional development environments or competitive programming contests.",
-            image: "/Feature/coding-illustration.avif"
+                "Design coding problems that match your interests and target specific skill sets. Push the community with your creativity, insight, and coding expertise. From classic interview-style tasks to high-pressure speed challenges, your ideas can shape how others learn. Earn recognition as a top contributor and inspire the next wave of developers.",
+            image: "/Feature/thinking1.png"
         },
         {
-            icon: <Timer className="w-8 h-8 text-[#E4D9FF]" />,
-            title: "Speed Tracking",
+            icon: <Eye className="w-8 h-8 text-[#E4D9FF]" />,
+            title: "Learn From Every Perspective",
             description:
-                "Monitor your coding speed with precise timers that record your start-to-finish performance. Identify bottlenecks, track your improvements over time, and set personal benchmarks to stay motivated and keep pushing your limits.",
-            image: "/Feature/speed-illustration.avif"
+                "After each challenge, explore how others approached the same problem. Compare solutions, discover clever shortcuts, and uncover techniques you never considered. Share your thoughts, debate best practices, and gain a deeper understanding by seeing the problem through many minds.",
+            image: "/Feature/Mindshot.png"
         }
     ];
 
@@ -25,7 +25,7 @@ export default function FeaturesGrid() {
                     <div
                         key={index}
                         className={`${
-                            index === 0 ? "sm:col-span-2" : "sm:col-span-1"
+                            index === 0 ? "sm:col-span-1" : "sm:col-span-2"
                         } rounded-xl p-6 text-left shadow-md hover:shadow-lg hover:-translate-y-1 transition bg-[url('/paper-texture.jpg')] bg-cover bg-blend-overlay`}
                         style={{ backgroundColor: "#2F2B3A" }}
                     >
