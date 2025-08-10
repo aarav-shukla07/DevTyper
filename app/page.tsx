@@ -2,6 +2,7 @@ import Image from "next/image";
 import Header from "./components/Header";
 import HeroParallax from "./components/HeroParallax";
 import FeatureSection from "./components/FeaturesSection";
+import FeaturesGrid from "./components/FeaturesGrid";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <main className="relative z-10">
           {/* Your content here */}
           <FeatureSection />
+          <FeaturesGrid />
         </main>
       </div>
     </>
