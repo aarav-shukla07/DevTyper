@@ -13,8 +13,8 @@ export default function Header() {
                 {/* Logo */}
                 <div className="flex items-center gap-8">
                 <Link href="/" className="flex items-center gap-2 text-white font-bold text-3xl">
-                    <Image src="/logo.png" alt="DevTyper" width={35} height={24} />
-                    DevTyper
+                    <Image src="/logo.png" alt="Genie AF" width={35} height={24} />
+                    Genie AF
                 </Link>
 
                 {/* Center: Nav Links */}

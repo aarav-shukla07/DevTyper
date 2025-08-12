@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "DevTyper",
+  title: "Genie AF",
   description: "Made by Aarav😎",
   icons:{
     icon:'/logo.png',
