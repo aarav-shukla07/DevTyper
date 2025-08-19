@@ -4,16 +4,16 @@ export default function FeaturesGrid() {
     const features = [
         {
             icon: <Code2 className="w-8 h-8 text-[#E4D9FF]" />,
-            title: "Real Coding Challenges",
+            title: "Instant Explanations",
             description:
-                "Work on practical, time-bound problems inspired by real-world scenarios. Each challenge pushes you to think critically, code efficiently, and adapt quickly — just like in professional development environments or competitive programming contests.",
+                "Turn any screenshot into clarity within seconds. Genie AF instantly breaks down complex pages — whether it’s code, articles, or study material — so you can focus on understanding, not searching. Learn faster, stay in flow, and reveal insights only when you want to.",
             image: "/Feature/coding-illustration.avif"
         },
         {
             icon: <Timer className="w-8 h-8 text-[#E4D9FF]" />,
-            title: "Speed Tracking",
+            title: "Stealth Learning",
             description:
-                "Monitor your coding speed with precise timers that record your start-to-finish performance. Identify bottlenecks, track your improvements over time, and set personal benchmarks to stay motivated and keep pushing your limits.",
+                "Learn without distractions or pressure. Genie AF works in the background, instantly explaining what’s on your screen while staying invisible to others. Stay in control of when you reveal your insights — making your learning process private, seamless, and focused entirely on clarity.",
             image: "/Feature/speed-illustration.avif"
         }
     ];

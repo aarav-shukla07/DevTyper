@@ -8,14 +8,15 @@ export default function FeatureSection() {
             <div className="flex-1 flex flex-col justify-center p-6 sm:p-8 md:p-10">
                 {/* Heading */}
                 <div className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-4 font-mono tracking-tight">
-                    Master your Skills
+                    Clarity in One Snap
                 </div>
                 {/* Description */}
                 <p className="text-gray-300 mb-6 text-sm sm:text-base md:text-lg leading-relaxed">
-                    DevTyper is a speed-focused coding platform designed to sharpen your problem-solving under pressure.
-                    Unlike traditional sites, we combine real coding challenges with time limits, live battles, and detailed speed
-                    analytics — helping you code faster, think quicker, and level up for interviews and contests.
-                    Build speed, consistency, and confidence — one challenge at a time.
+                    Genie AF is your invisible learning companion, built to make understanding effortless. 
+                    Instead of wasting time searching, just snap a screenshot and get instant explanations of any page. 
+                    Unlike traditional tools, Genie AF works in stealth mode — invisible until you choose to reveal it. 
+                    Learn faster, stay focused, and keep your flow uninterrupted.
+                    Master clarity, speed, and confidence — one screenshot at a time.
                 </p>
                 {/* Button (Visible on all devices now) */}
                 <div className="flex gap-2">
