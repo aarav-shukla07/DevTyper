@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useRef } from 'react';
+import { jetbrainsMono } from '@/lib/fonts';
 
 export default function HeroParallax() {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -53,7 +54,7 @@ export default function HeroParallax() {
 
       {/* Text content */}
       <div className="relative z-10 text-center px-6">
-        <h1 className="text-4xl sm:text-8xl font-normal mb-4 leading-tight">
+        <h1 className={`${jetbrainsMono.className} text-4xl sm:text-7xl font-normal mb-4 leading-tight`}>
           <span className="text-violet-500">Instant Clarity</span>{' '}
           <br />
           <span className="text-white">Zero Distraction</span>
@@ -62,10 +63,10 @@ export default function HeroParallax() {
           Just take a screenshot — Genie AF instantly explains what’s on your screen, so you can focus on gaining knowledge, not searching.
         </p>
         <a
-          href="#"
+          href="/downloads"
           className="inline-block px-6 py-3 bg-violet-600 text-white rounded-md shadow hover:bg-violet-700 transition"
         >
-          Download
+          Download Now
         </a>
       </div>
       
