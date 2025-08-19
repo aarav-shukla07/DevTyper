@@ -1,6 +1,8 @@
+import { jetbrainsMono } from "@/lib/fonts";
+
 export default function Description(){
     return(
-        <div className="flex flex-col items-center justify-center text-center p-4">
+        <div className={`${jetbrainsMono.className} flex flex-col items-center justify-center text-center p-4`}>
                 <h1 className="text-2xl sm:text-3xl md:text-6xl font-semibold mb-4">
                 A Community of Learners
                 </h1>

@@ -26,7 +26,7 @@ export default function Footer() {
               DevTyper
             </Link>
             <p className="text-white whitespace-nowrap">
-              Code Faster Think Sharper.
+              Instant Clarity Zero Distraction.
             </p>
           </div>
 

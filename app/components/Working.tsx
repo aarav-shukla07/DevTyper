@@ -1,40 +1,41 @@
-import { Code, Zap, Users, Trophy } from "lucide-react";
+import { Camera, Eye, Users, BookOpen } from "lucide-react";
+import { jetbrainsMono } from "@/lib/fonts";
 
 export default function Working() {
     const steps = [
         {
-            icon: <Code className="w-8 h-8 text-[#E4D9FF]" />,
-            title: "Pick a Challenge",
+            icon: <Camera className="w-8 h-8 text-[#E4D9FF]" />,
+            title: "Snap a Screenshot",
             description:
-                "Choose from a vast library of coding problems tailored to your level and goals. Whether you're brushing up on basics or tackling advanced algorithms, there's something for you.",
+                "Capture any page — code, article, or study material. Genie AF instantly recognizes what’s on your screen.",
         },
         {
-            icon: <Zap className="w-8 h-8 text-[#E4D9FF]" />,
-            title: "Code & Solve",
+            icon: <Eye className="w-8 h-8 text-[#E4D9FF]" />,
+            title: "Get Instant Clarity",
             description:
-                "Dive into the editor and put your skills to the test. Solve problems at your own pace or race against the clock in speed challenges.",
+                "Receive clean, simple explanations in real-time. No searching, no distractions — just direct understanding.",
         },
         {
             icon: <Users className="w-8 h-8 text-[#E4D9FF]" />,
-            title: "Learn From Others",
+            title: "See Other Perspectives",
             description:
-                "After solving, explore creative solutions from other developers. Compare approaches, learn new tricks, and discuss strategies with the community.",
+                "Explore how others interpreted the same screenshot. Compare insights and discover new ways of thinking.",
         },
         {
-            icon: <Trophy className="w-8 h-8 text-[#E4D9FF]" />,
-            title: "Level Up",
+            icon: <BookOpen className="w-8 h-8 text-[#E4D9FF]" />,
+            title: "Save & Learn",
             description:
-                "Track your progress, earn badges, and climb the leaderboard as you complete challenges and improve your coding skills.",
+                "Organize your explanations into a personal library. Revisit anytime or share when you’re ready.",
         }
     ];
 
     return (
         <div className="py-12 px-4 sm:px-6 lg:px-12 text-center">
-            <h1 className="text-2xl sm:text-3xl md:text-6xl font-semibold mb-4">
+            <h1 className={`${jetbrainsMono.className} text-2xl sm:text-3xl md:text-6xl font-semibold mb-4`}>
                 How it Works?
             </h1>
-            <p className="text-base sm:text-xl max-w-4xl mx-auto leading-relaxed mb-10 text-gray-300">
-                From beginner to expert, follow these simple steps to enhance your skills, challenge yourself, and grow as a developer.
+            <p className={`${jetbrainsMono.className} text-base sm:text-xl max-w-4xl mx-auto leading-relaxed mb-10 text-gray-300`}>
+                Genie AF turns screenshots into instant clarity. Stay in flow, learn smarter, and keep your knowledge invisible until you want to share.
             </p>
 
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4 max-w-7xl mx-auto">
@@ -58,7 +59,6 @@ export default function Working() {
                         <p className="text-gray-400 text-lg mb-4">
                             {step.description}
                         </p>
-                        
                     </div>
                 ))}
             </div>

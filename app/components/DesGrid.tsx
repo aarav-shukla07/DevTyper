@@ -1,26 +1,27 @@
 import { Edit, Eye } from "lucide-react";
+import { poppins } from "@/lib/fonts";
 
 export default function DesGrid() {
     const features = [
         {
             icon: <Edit className="w-8 h-8 text-[#E4D9FF]" />,
-            title: "Create Your Own Challenges",
+            title: "Capture Your Own Insights",
             description:
-                "Design coding problems that match your interests and target specific skill sets. Push the community with your creativity, insight, and coding expertise. From classic interview-style tasks to high-pressure speed challenges, your ideas can shape how others learn. Earn recognition as a top contributor and inspire the next wave of developers.",
+                "With Genie AF, every screenshot you take can become a powerful learning resource. Save explanations for later, organize them by topic, or share them with others when you choose. Your captured insights not only strengthen your own understanding but can also guide and inspire the community — making learning smarter, simpler, and more collaborative.",
             image: "/Feature/thinking1.png"
         },
         {
             icon: <Eye className="w-8 h-8 text-[#E4D9FF]" />,
-            title: "Learn From Every Perspective",
+            title: "Understand From Every Angle",
             description:
-                "After each challenge, explore how others approached the same problem. Compare solutions, discover clever shortcuts, and uncover techniques you never considered. Share your thoughts, debate best practices, and gain a deeper understanding by seeing the problem through many minds.",
+                "With Genie AF, you’re never limited to a single explanation. Discover how others interpret the same screenshot, compare perspectives, and uncover insights you might have missed. By seeing different ways of breaking things down, you deepen your understanding and expand how you think — one page, many minds.",
             image: "/Feature/Mindshot.png"
         }
     ];
 
     return (
         <div className="py-12 px-4 sm:px-6 lg:px-12">
-            <div className="grid gap-6 sm:grid-cols-3 max-w-6xl mx-auto">
+            <div className={`${poppins.className} grid gap-6 sm:grid-cols-3 max-w-6xl mx-auto`}>
                 {features.map((feature, index) => (
                     <div
                         key={index}
