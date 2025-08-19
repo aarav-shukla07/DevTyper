@@ -21,7 +21,7 @@ export default function Header() {
                 <nav className="hidden md:flex gap-6 text-zinc-300 text-base">
                     <Link href="/" className="hover:text-white transition">Home</Link>
                     <Link href="/about" className="hover:text-white transition">About</Link>
-                    <Link href="/blog" className="hover:text-white transition">Blog</Link>
+                    <Link href="/documentation" className="hover:text-white transition">Documentation</Link>
                     <Link href="/contact" className="hover:text-white transition">Contact</Link>
                 </nav>
                 </div>
@@ -61,7 +61,7 @@ export default function Header() {
                     <div className="md:hidden absolute top-full right-4 mt-2 w-64 bg-zinc-800 border border-zinc-700 rounded-md shadow-lg p-4 space-y-3 z-50">
                         <Link href="/" className="block text-zinc-300 hover:text-white">Home</Link>
                         <Link href="/about" className="block text-zinc-300 hover:text-white">About</Link>
-                        <Link href="/blog" className="block text-zinc-300 hover:text-white">Blog</Link>
+                        <Link href="/documentation" className="block text-zinc-300 hover:text-white">Documentation</Link>
                         <Link href="/contact" className="block text-zinc-300 hover:text-white">Contact</Link>
                         <hr className="border-zinc-700" />
                         <Link href="/login" className="block text-white">Login</Link>

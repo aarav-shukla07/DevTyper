@@ -54,18 +54,18 @@ export default function HeroParallax() {
       {/* Text content */}
       <div className="relative z-10 text-center px-6">
         <h1 className="text-4xl sm:text-8xl font-normal mb-4 leading-tight">
-          <span className="text-violet-500">Code Faster</span>{' '}
+          <span className="text-violet-500">Instant Clarity</span>{' '}
           <br />
-          <span className="text-white">Think Sharper</span>
+          <span className="text-white">Zero Distraction</span>
         </h1>
         <p className="text-white text-xl max-w-3xl mx-auto mb-8">
-          Improve your development speed by solving real coding problems with time pressure. Learn to think clearly, type faster, and solve smarter — just like in real interviews.
+          Just take a screenshot — Genie AF instantly explains what’s on your screen, so you can focus on gaining knowledge, not searching.
         </p>
         <a
-          href="/login"
+          href="#"
           className="inline-block px-6 py-3 bg-violet-600 text-white rounded-md shadow hover:bg-violet-700 transition"
         >
-          Get Started
+          Download
         </a>
       </div>
       
